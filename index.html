@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>counter</title>
+    
+    <link rel="stylesheet" href="./output.css">
+</head>
+<body>
+    <div class="w-[100vw] h-[100vh] bg-gray-700 flex justify-center items-center  flex-col  ">
+       <div class="mb-3 text-blue-200 text-lg">  
+              Increment And Decrement
+
+       </div>
+
+       <div class="flex gap-8 bg-white  border-color: rgb(0 0 0) p-3 px-18">
+        <button onclick="decrement()" class=" m-2 ">
+            <i class="fa-solid fa-minus pr-5  border-r-2"></i>
+        </button>
+        <div  id="counter" class="m-3 mx " >0</div>
+        
+            <button onclick="increment()" class="m-2">
+                <i class="fa-solid fa-plus pl-5 border-l-2" ></i>
+            </button>
+        
+       </div>
+
+    </div>
+    
+    <script src="https://kit.fontawesome.com/b584e715ac.js" crossorigin="anonymous"></script>
+   <script src="./script.js"></script>
+</body>
+</html>
